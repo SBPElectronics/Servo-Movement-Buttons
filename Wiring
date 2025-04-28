@@ -1,0 +1,8 @@
+Component	Connection to ESP32	Notes
+Servo VCC	5V (or external 5V)	Servos usually need 5V for full strength.
+Servo GND	GND	Ground must be common with ESP32!
+Servo Signal	GPIO 18	Connected to PWM-capable pin.
+Button 1 (one side)	GPIO 32	First button input.
+Button 1 (other side)	GND	Ground side of button.
+Button 2 (one side)	GPIO 33	Second button input.
+Button 2 (other side)	GND	Ground side of button.
